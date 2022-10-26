@@ -3,6 +3,9 @@
 /* ========================
 INCLUDE STYLES AND COMPONENTS
 ===================== */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 /* ================== HELPERS =================== */
 .table thead th {
   color: #adb5bd;
