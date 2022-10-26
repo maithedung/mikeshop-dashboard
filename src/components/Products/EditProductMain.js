@@ -5,7 +5,6 @@ import {useDispatch, useSelector} from "react-redux";
 import {editProduct} from "../../Redux/Actions/Product/ProductEditActions";
 import {PRODUCT_UPDATE_RESET} from "../../Redux/Constants/Product/ProductUpdateConstants";
 import {toast} from "react-toastify";
-import {createProduct} from "../../Redux/Actions/Product/ProductCreateActions";
 import Message from "../LoadingError/Error";
 import Loading from "../LoadingError/Loading";
 import {updateProduct} from "../../Redux/Actions/Product/ProductUpdateActions";
@@ -100,7 +99,7 @@ const EditProductMain = (props) => {
                                                 id="product_price"
                                                 required
                                                 value={price}
-                                                onChange={(e) => setPrice(e.target.value)}
+                                                onChange={(e) => setPrice(+e.target.value)}
                                             />
                                         </div>
                                         <div className="mb-4">
@@ -114,7 +113,7 @@ const EditProductMain = (props) => {
                                                 id="product_count_in_stock"
                                                 required
                                                 value={countInStock}
-                                                onChange={(e) => setCountInStock(e.target.value)}
+                                                onChange={(e) => setCountInStock(+e.target.value)}
                                             />
                                         </div>
                                         <div className="mb-4">

@@ -88,7 +88,7 @@ const AddProductMain = () => {
                                         id="product_price"
                                         required
                                         value={price}
-                                        onChange={(e) => setPrice(e.target.value)}
+                                        onChange={(e) => setPrice(+e.target.value)}
                                     />
                                 </div>
                                 <div className="mb-4">
@@ -102,7 +102,7 @@ const AddProductMain = () => {
                                         id="product_count_in_stock"
                                         required
                                         value={countInStock}
-                                        onChange={(e) => setCountInStock(e.target.value)}
+                                        onChange={(e) => setCountInStock(+e.target.value)}
                                     />
                                 </div>
                                 <div className="mb-4">
@@ -127,7 +127,8 @@ const AddProductMain = () => {
                                         value={image}
                                         onChange={(e) => setImage(e.target.value)}
                                     />
-                                    <input className="form-control mt-3" type="file"/>
+                                    {/*<input className="form-control mt-3" type="file"/>*/}
+
                                 </div>
                             </div>
                         </div>
