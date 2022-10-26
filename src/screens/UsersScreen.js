@@ -1,7 +1,7 @@
 import React from "react";
 import Sidebar from "./../components/sidebar";
 import Header from "./../components/Header";
-import UserComponent from "../components/users/UserComponent";
+import UserComponent from "../components/Users/UserComponent";
 
 const UsersScreen = () => {
   return (

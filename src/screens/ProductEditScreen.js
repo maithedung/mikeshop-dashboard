@@ -1,7 +1,7 @@
 import React from "react";
 import Sidebar from "./../components/sidebar";
 import Header from "./../components/Header";
-import EditProductMain from "../components/products/EditProductMain";
+import EditProductMain from "../components/Products/EditProductMain";
 
 const ProductEditScreen = ({ match }) => {
   const productId = match.params.id;

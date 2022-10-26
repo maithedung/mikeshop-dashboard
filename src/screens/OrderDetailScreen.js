@@ -1,7 +1,7 @@
 import React from "react";
 import Sidebar from "./../components/sidebar";
 import Header from "./../components/Header";
-import OrderDetailMain from "../components/orders/OrderDetailMain";
+import OrderDetailMain from "../components/Orders/OrderDetailMain";
 
 const OrderDetailScreen = ({match}) => {
     const orderId = match.params.id
