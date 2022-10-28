@@ -6,6 +6,7 @@ const ProductsStatistics = () => {
             <article className="card-body">
                 <h5 className="card-title">Products statistics</h5>
                 <iframe
+                    title="charts-mikeshop-qgkau"
                     style={{
                         background: "#FFFFFF",
                         border: "none",
