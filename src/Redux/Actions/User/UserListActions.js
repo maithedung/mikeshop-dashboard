@@ -1,5 +1,4 @@
 import axios from "axios";
-import {toast} from "react-toastify";
 import {logout} from "./UserLogoutActions";
 import {USER_LIST_FAIL, USER_LIST_REQUEST, USER_LIST_SUCCESS} from "../../Constants/User/UserListConstants";
 import {URL} from "../../Url";
