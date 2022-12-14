@@ -76,7 +76,7 @@ const Header = () => {
                     </Link>
                 </li>
                 <li className="dropdown nav-item">
-                    <Link className="dropdown-toggle" data-bs-toggle="dropdown" to="#">
+                    <Link className="" data-bs-toggle="dropdown" to="#">
                         <img
                             className="img-xs rounded-circle"
                             src="/images/favicon.png"
