@@ -26,7 +26,6 @@ const AddProductMain = () => {
 
     useEffect(() => {
         if (product) {
-            toast.success("Product added", toastObject)
             dispatch({type: PRODUCT_CREATE_RESET})
             setName("")
             setPrice(0)
